@@ -1,27 +1,49 @@
-# DigitalBanking1Web
+<h2 align="center"  style="color: red" >Compte Rendu</h4>
+<h3>Développé une Application de gestion des Comptes des Customers en Utilisant une Architecture
+Spring MVC Rendu HTml Coté Client Avec le Framework Angular</h3>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+<ul>
+  <li style="color: Green"><strong>Tableau des Customers</strong>
+  <hr>
+        <ol> <img src="src/assets/static.img/front1.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 1: </strong> La liste des Customers</ol>
+  <li style="color: Green"><strong>Zone de recherche des Customers</strong>
+  <hr>
+        <ol> <img src="src/assets/static.img/front2.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 2: </strong> Recherche des Customers</ol>
+  <li style="color: Green"><strong>Ajouter Un nouveau Customer</strong>
+  <hr>
+        <ol> <img src="src/assets/static.img/Front3.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 3: </strong> Ajouter un Customer</ol>
+  <li style="color: Green"><strong>Rechercher Un compte</strong>
+   <hr>
+    <ol> <img src="src/assets/static.img/Front4.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 4: </strong> Rechercher Un compte</ol>
+ 
+</ul>
+<h5>Dans cette étape on Recherche Un compte selon Son Id qui sera récupérer de la 
+partie Backend</h5>
+<ul>
+    <ol> <img src="src/assets/static.img/Front5.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 5: </strong> Consulter la liste des Operations d'un Compte</ol>
+</ul>
+<h5>Après la consultation On peut effectuer un ensemble des opérations sur un Compte
+</h5>
+<ul>
+    <ol> <img src="src/assets/static.img/Front6.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 6: </strong> Exemple de l'opération DEBIT</ol>
+   <br> 
+   <ol> <img src="src/assets/static.img/Front7.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 7: </strong> Exemple de l'opération CREDIT</ol>
+  <br> 
+   <ol> <img src="src/assets/static.img/Front8.PNG"></ol>
+<h5>Dans cette étape on effectue un transfer d'un compte vers un autre</h5>
+        <ol style="text-align: center"><strong style="color: red">Figure 8: </strong> Exemple de l'opération TRANSFER</ol>
+</ul>
+<ul>
+<br> 
+    <ol> <img src="src/assets/static.img/Front9.PNG"></ol>
+        <ol style="text-align: center"><strong style="color: red">Figure 9: </strong> Operation de suppression</ol>
+</ul>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
